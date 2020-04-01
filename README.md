@@ -24,4 +24,4 @@ In this section the app is explained:
 
 2. The first page also contains the training set graphs plotted using the plotly. These training data is provided by the Figure Eight. The images is as shown below.
 
-![](Plots.png)
+![](Plots.PNG)
