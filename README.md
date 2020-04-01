@@ -13,3 +13,11 @@
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
+
+
+## Explanation:
+
+In this section the app is explained:
+1. The below is the screenshot for the first page where the user input is taken.
+
+![Alt text](UserInput.png?raw=true "User Input")
