@@ -18,6 +18,10 @@
 ## Explanation:
 
 In this section the app is explained:
-1. The below is the screenshot for the first page where the user input is taken.
+1. The below is the screenshot for the first page where the user input is taken. As shown below the user input is "My friend is stranded at his house with low supplies of food". The classifier classifies this as the AID related and the label is food.
 
 ![](UserInput.PNG)
+
+2. The first page also contains the training set graphs plotted using the plotly. These training data is provided by the Figure Eight. The images is as shown below.
+
+![](Plots.png)
