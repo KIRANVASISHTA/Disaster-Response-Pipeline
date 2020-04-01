@@ -20,4 +20,4 @@
 In this section the app is explained:
 1. The below is the screenshot for the first page where the user input is taken.
 
-![Alt text](UserInput.png?raw=true "User Input")
+![Alt text](Disaster-Response-Pipeline/UserInput.png?raw=true "User Input")
