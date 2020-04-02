@@ -16,7 +16,6 @@ from sklearn.pipeline import Pipeline, FeatureUnion
 from sklearn.metrics import fbeta_score, classification_report
 from scipy.stats.mstats import gmean
 
-nltk.download(['punkt', 'wordnet', 'averaged_perceptron_tagger'])
 
 
 def load_data(database_filepath):
@@ -170,12 +169,6 @@ def evaluate_model(model, X_test, Y_test, category_names):
     # Extremely long output
     # Work In Progress: Save Output as Text file!
     
-    #Y_pred = pd.DataFrame(Y_pred, columns = Y_test.columns)
-    
-    #for column in Y_test.columns:
-    #    print('Model Performance with Category: {}'.format(column))
-    #    print(classification_report(Y_test[column],Y_pred[column]))
-    pass
 
 
 def save_model(model, model_filepath):
@@ -191,7 +184,7 @@ def save_model(model, model_filepath):
     """
     filename = model_filepath
     pickle.dump(model, open(filename, 'wb'))
-    pass
+    
 
 
 def main():
