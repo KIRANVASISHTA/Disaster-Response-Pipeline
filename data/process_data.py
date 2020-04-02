@@ -28,7 +28,7 @@ def clean_data(df):
     for entry in row:
         colnames.append(entry[:-2])
     category_colnames = colnames
-    print('Column names:', category_colnames)
+    
     categories.columns = category_colnames
     for column in categories:
         categories[column] = categories[column].str[-1:]
